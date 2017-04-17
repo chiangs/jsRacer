@@ -1,0 +1,43 @@
+body {
+    height: 300px;
+    width: 300px;
+    font-family: 'Raleway', serif;
+}
+
+.game {
+    background-image: url('background.png');
+    background-repeat: repeat-x;
+    height: 50vh;
+    width: 100vw;
+    margin-left:-15px;
+}
+
+.racer {
+    height: 100px;
+    width: 100px;
+    padding-top: 230px;
+}
+
+#flyingDino {
+    background-image: url('redDragon.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#cyclingDino {
+    /*background-color: rgb(9, 97, 233);*/
+    background-image: url('blueDragon.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.instructions {
+    width: 100vw;
+    text-align: center;
+}
